@@ -1,4 +1,4 @@
-FROM argoproj/argocli:v2.8.1 as argo-source
+FROM argoproj/argocli:v2.9.5 as argo-source
 
 FROM alpine:latest
 LABEL authors="Vašek Dohnal <vaclav.dohnal@gmail.com>"
